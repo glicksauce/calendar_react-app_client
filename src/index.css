@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
 body {
+  width: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +14,80 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.calendar-image{
+ width: 80%;
+ background: yellow;
+}
+
+img{
+  display: block;
+  width: 250px;
+  max-height: 250px;
+}
+
+.journal-entry{
+  float: left;
+}
+
+.delete-button{
+  color:red;
+  border: 2px solid white;
+  background: white;
+}
+
+.delete-button:hover{
+  cursor: pointer;
+}
+
+.vsc-initialized{
+  width: 100%;
+}
+
+#root{
+  width: 100%;
+}
+.App{
+  float: left;
+  width: 100%;
+
+}
+
+.react-calendar{
+  float: left;
+  margin: 50px 5%;
+  width: 50%;
+}
+
+.visuals-container{
+  float: left;
+  width: 50%;
+}
+
+.entry-container{
+  width: 100%;
+  height: 250px;
+  margin: 2% 0;
+  display: flex;
+  flex-wrap: nowrap;
+  border: 1px solid gray;
+}
+
+.column{
+  height: 100%;
+  /* border: 2px solid gray; */
+}
+
+.column1{
+  flex-grow: 1;
+}
+
+.column2{
+  flex-basis: 45%;
+}
+.column3{
+}
+
+.delete-button, .update{
 }
